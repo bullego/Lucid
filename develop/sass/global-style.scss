@@ -1,0 +1,52 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: lighten($main-bg, 20%);
+  background-color: $white;
+}
+a {
+  text-decoration: none;  
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  //border: 1px solid yellow;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

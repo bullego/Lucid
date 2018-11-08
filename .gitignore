@@ -1,0 +1,4 @@
+#Ignore files
+production/
+node_modules/
+*.psd

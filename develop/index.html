@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>LUCID test</title>
+	
+	<link rel="preload" href="fonts/source-sans-pro-v11-latin-300.woff2" as="font">
+	<link rel="preload" href="fonts/source-sans-pro-v11-latin-600.woff2" as="font">
+	<link rel="preload" href="fonts/source-sans-pro-v11-latin-700.woff2" as="font">
+	<link rel="preload" href="fonts/source-sans-pro-v11-latin-italic.woff2" as="font">
+	<link rel="preload" href="fonts/source-sans-pro-v11-latin-regular.woff2" as="font">
+
+	<!-- libs.min.css = normalize + slick + WOW -->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+<!--______________________________section_1 (header)-->	
+<header class="page-header" id="home">
+	<div class="main-bg">
+
+		<section class="page-header__wrap container">
+
+			<a class="page-header__logo">
+				<img src="img/lucid_logo.png" alt="LUCID company logo">
+			</a>
+
+			<nav class="main-nav" id="menu">
+
+				<button class="btn__burger-menu--toggle" id="btn__burger-menu" type="button"><span class="visually-hidden">Открыть меню</span></button>
+
+				<ul class="main-nav__list  main-nav__list--mobile">
+
+					<li class="main-nav__item  main-nav__item--active  main-nav__item--active-mobile">
+						<a href="#home" class="main-nav__link">Home</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#features" class="main-nav__link">Features</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#about" class="main-nav__link">About</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#testimonials" class="main-nav__link">Testimonials</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#pricing" class="main-nav__link">Pricing</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#contact" class="main-nav__link">Contact</a>
+					</li>
+
+				</ul>
+			</nav>
+
+		</section>
+
+		<section class="page-intro  container">
+
+			<div class="page-intro__left-content  wow  fadeInLeft">
+				<p class="page-intro__blue--title">introducing lucid theme</p>
+				<h1 class="page-intro__main-title">Carefully crafted and beautiful landing page.</h1>
+				<p class="page-intro__grey--title">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
+				
+				<button class="btn-blue  main-page__btn-blue" type="button">DOWNLOAD NOW</button>
+				<a href="#" class="btn-opacity  main-page__btn-opacity">VIEW FEATURES</a>
+			</div>
+			<div class="page-intro__right-content">
+				<img class="wow  fadeInRight" src="img/verticle-phone.png" alt="cellphone image">
+			</div>			
+			
+		</section>	
+
+	</div> <!--end main-bg-->
+</header>
+
+<main>
+<!--______________________________section_2 (features)-->
+	<section class="features" id="features">
+		<div class="features-bg">
+
+			<div class="features__mobile-img--bottom-white"></div>
+
+			<div class="features__description  container">
+
+				<div class="features__description--header">
+					<p class="features__about">PRODUCT OVERVIEW</p>
+					<h2 class="features__main-title">List of amazing features</h2>
+
+					<div class="separate  separate__features--center">
+						<div class="separate__blue-line"></div>	
+						<div class="separate__blue-line"></div>	
+					</div>
+				</div>
+								
+				<ul class="features__list">
+					<h2 class="visually-hidden">Features</h2>
+
+					<li class="features__item  wow  zoomIn">
+						<span class="features__icon--circle">
+							<img src="img/features-list-monitor_2.png" alt="responsive icon">
+						</span>
+						<h3 class="features__item--title">Responsive</h3>
+						<p class="features__item--grey-description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</li>
+					<li class="features__item  wow  zoomIn">
+						<span class="features__icon--circle">
+							<img src="img/features-list-settings_2.png" alt="customizable icon">
+						</span>
+						<h3 class="features__item--title">Customizable</h3>
+						<p class="features__item--grey-description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</li>
+					<li class="features__item  wow  zoomIn">
+						<span class="features__icon--circle">
+							<img src="img/features-list-like_2.png" alt="lovely design icon">
+						</span>
+						<h3 class="features__item--title">Lovely design</h3>
+						<p class="features__item--grey-description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</li>
+					<li class="features__item  wow  zoomIn">
+						<span class="features__icon--circle">
+							<img src="img/features-list-phone_2.png" alt="mobile friendly icon">
+						</span>
+						<h3 class="features__item--title">Mobile friendly</h3>
+						<p class="features__item--grey-description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+					</li>
+				</ul>				
+				
+			</div> <!--end features__description + container-->	
+
+		</div> <!--end features-bg-->
+	</section>
+
+	<div class="main__separate-line"></div>
+
+<!--______________________________section_3 (about)-->
+	<section class="about" id="about">
+		<div class="about__white-bg">
+			
+			<div class="about__description-first  container">
+				
+				<div class="about__description-first--left-content  wow  fadeInUp">
+					<img src="img/verticle-phone-about-section.png" alt="cellphone image">
+				</div>
+
+				<div class="about__description-first--right-content  wow  fadeInUp">
+
+					<p class="about__blue-title">dip into the details</p>
+					<h2 class="about__main-title">Beautiful on every device</h2>
+
+					<div class="separate separate__about">
+						<div class="separate__blue-line"></div>	
+						<div class="separate__blue-line"></div>	
+					</div>
+
+					<p class="about__grey-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. </p>
+
+					<ul class="about__features-list">
+						<li class="about__features-item">
+							<span class="about__icon-box"><i class="fas fa-trophy"></i></span>
+							<span class="about__features-item--text">Awesome design</span>				
+						</li>
+						<li class="about__features-item">
+							<span class="about__icon-box"><i class="fas fa-mobile-alt"></i></span>			
+							<span class="about__features-item--text">Fully responsive</span>			
+						</li>
+						<li class="about__features-item">
+							<span class="about__icon-box"><i class="fas fa-bolt"></i></span>			
+							<span class="about__features-item--text">Retina ready</span>				
+						</li>
+						<li class="about__features-item">
+							<span class="about__icon-box"><i class="fas fa-tachometer-alt"></i></span>		
+							<span class="about__features-item--text">Tons of features and easy to use</span>
+						</li>
+					</ul>
+
+				</div>
+
+			</div> <!--end about__description-first + container-->
+
+		</div><!-- end about-bg__white -->
+		<div class="about__grey-bg">
+			
+			<div class="about__description-second  container">
+				
+				<div class="about__description-second--left-content  wow  fadeInLeft">
+					<p class="about__blue-title">dip into the details</p>
+					<h2 class="about__main-title">Super easy to customize</h2>
+
+					<div class="separate separate__about">
+						<div class="separate__blue-line"></div>	
+						<div class="separate__blue-line"></div>	
+					</div>
+
+					<p class="about__grey-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				</div>
+
+				<div class="about__description-second--right-content  wow  fadeInRight">
+					<img src="img/laid-phone2.png" alt="cellphone image">
+				</div>
+
+			</div><!--end about__description-second + container-->
+
+		</div>
+	</section>
+
+<!--______________________________section_4 (testimonials)-->
+	<section class="testimonials" id="testimonials">
+		<div class="testimonials-bg">
+			
+			<div class="testimonials__description  container">
+				
+				<div class="testimonials__description--header">
+					<p class="testimonials__about">we are professionals</p>
+					<h2 class="testimonials__main-title">Our testimonials</h2>
+
+					<div class="separate  separate__testimonials--center">
+						<div class="separate__blue-line"></div>	
+						<div class="separate__blue-line"></div>	
+					</div>
+				</div>
+
+				<div class="slider">
+
+					<h3 class="visually-hidden">slider with testimonials</h3>
+					
+					<div class="slider__item  wow  fadeInRight">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_1.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">John Doe</span><br>
+		 	            		<span class="slide__specialty">CEO, THE RIVERS COMPANY</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item  wow  fadeInRight">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_2.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">Mike Scott</span><br>
+		 	            		<span class="slide__specialty">UX DESIGNER, GOOGLE INC.</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_1.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">John Doe</span><br>
+		 	            		<span class="slide__specialty">CEO, THE RIVERS COMPANY</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_2.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">Mike Scott</span><br>
+		 	            		<span class="slide__specialty">UX DESIGNER, GOOGLE INC.</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_1.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">John Doe</span><br>
+		 	            		<span class="slide__specialty">CEO, THE RIVERS COMPANY</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_2.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">Mike Scott</span><br>
+		 	            		<span class="slide__specialty">UX DESIGNER, GOOGLE INC.</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_1.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">John Doe</span><br>
+		 	            		<span class="slide__specialty">CEO, THE RIVERS COMPANY</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+					<div class="slider__item">					
+	 	            	<p class="slider__text">Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.</p>
+	 	            	<div class="slider__sign">
+	 	            		<img src="img/sl_avatar_2.png" alt="author avatar">
+	 	            		<div class="slide__author--wrap">
+	 	            			<span class="slide__author">Mike Scott</span><br>
+		 	            		<span class="slide__specialty">UX DESIGNER, GOOGLE INC.</span>
+	 	            		</div>
+	 	            	</div>      	   			
+					</div>
+
+				</div> <!--end slider-->
+
+			</div><!--end testimonials__description + container-->
+
+		</div>
+		<div class="testimonials__download">
+			
+			<div class="testimonials__download--wrap  container">
+
+				<h2 class="visually-hidden">Theme offer</h2>
+
+				<div class="testimonials__download--left-content">
+					<p class="testimonials__question"><span class="testimonials__question--bold">Like what you see?</span> Get this great theme now!</p>
+				</div>
+
+				<div class="testimonials__download--right-content">
+					<a href="#" class="btn-opacity  testimonials__btn-opacity">VIEW FEATURES</a>
+					<button class="btn-blue  testimonials__btn-blue" type="button">DOWNLOAD NOW</button>
+				</div>
+
+			</div><!--end testimonials__dowload-wrap + container-->
+
+		</div>	
+	</section>
+<!--______________________________section_5 (price)-->
+	<section class="price" id="pricing">
+		<div class="price-bg">
+			
+			<div class="price__description  container">
+				
+				<div class="price__description--header">
+					<p class="price__about">quality has its price</p>
+					<h2 class="price__main-title">Pricings & Plans</h2>
+
+					<div class="separate  separate__price--center">
+						<div class="separate__blue-line"></div>	
+						<div class="separate__blue-line"></div>	
+					</div>
+				</div>
+
+				<div class="price__table">
+					
+					<div class="price__table-item  wow  zoomIn">
+
+						<div class="price__table-header">
+							<h4>FREE</h4>
+						</div>
+						<div class="price__table-cost">
+							<h4><span class="dollar">$</span>0</h4>
+							<span class="month">/per month</span>
+						</div>
+						<div class="price__table-text">
+							<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#">lacinia</a> consectetur.</p>
+							<button class="btn-opacity  table__btn--opacity" type="button">ORDER NOW</button>
+						</div>
+
+					</div>
+					<div class="price__table-item  wow  zoomIn">
+
+						<div class="price__table-header">
+							<h4>PERSONAL</h4>
+						</div>
+						<div class="price__table-cost">
+							<h4><span class="dollar">$</span>25</h4>
+							<span class="month">/per month</span>
+						</div>
+						<div class="price__table-text">
+							<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#">lacinia</a> consectetur.</p>
+							<button class="btn-opacity  table__btn--opacity" type="button">ORDER NOW</button>
+						</div>
+
+					</div>
+					<div class="price__table-item  price__table-item--active  wow  fadeInDown" data-wow-delay="0.5s">
+
+						<div class="price__table-header">
+							<h4>BUSINESS</h4>
+						</div>
+						<div class="price__table-cost">
+							<h4><span class="dollar">$</span>50</h4>
+							<span class="month">/per month</span>
+						</div>
+						<div class="price__table-text">
+							<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#">lacinia</a> consectetur.</p>
+							<button class="btn-opacity  table__btn--opacity" type="button">ORDER NOW</button>
+						</div>
+
+					</div>
+					<div class="price__table-item  wow  zoomIn">
+
+						<div class="price__table-header">
+							<h4>ULTIMATE</h4>
+						</div>
+						<div class="price__table-cost">
+							<h4><span class="dollar">$</span>99</h4>
+							<span class="month">/per month</span>
+						</div>
+						<div class="price__table-text">
+							<p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#">lacinia</a> consectetur.</p>
+							<button class="btn-opacity  table__btn--opacity" type="button">ORDER NOW</button>
+						</div>
+
+					</div>					
+
+				</div><!--end price__table-->
+
+			</div><!--end price__description + container-->
+
+		</div><!--end price-bg-->
+	</section>
+<!--______________________________section_6 (contacts)-->
+	<section class="contacts" id="contact">
+		<div class="contacts__grey-bg">
+			
+			<div class="contacts__description  container">
+				
+				<div class="contacts__description--header">
+					<p class="contacts__about">stay in touch</p>
+					<h2 class="contacts__main-title">Contact us</h2>
+
+					<div class="separate  separate__contacts--center">
+						<div class="separate__blue-line"></div>	
+						<div class="separate__blue-line"></div>	
+					</div>
+				</div>
+
+				<div class="contacts__list">
+
+					<div class="contacts__item">
+						<span class="contacts__icon-box"><i class="fas fa-mobile-alt"></i></span>
+						<p class="contacts__phone">Phone: (415) 124-5678</p>
+						<p class="contacts__phone">Fax: (412) 123-8290</p>
+					</div>
+
+					<div class="contacts__item">
+						<span class="contacts__icon-box"><i class="fa fa-map-marker-alt"></i></span>
+						<p class="contacts__address">1001 Brickell Bay Dr.</p>
+						<p class="contacts__address">Suite 1900</p>
+						<p class="contacts__address">Miami, FL 33131</p>
+					</div>
+
+					<div class="contacts__item">
+						<span class="contacts__icon-box"><i class="far fa-envelope"></i></span>
+						<p class="contacts__email">support@yourname.com</p>					
+					</div>					
+
+				</div><!--end contacts__list-->
+
+				<form class="page-form  wow  shake" data-wow-delay="0.5s" action="#" method="POST">
+					
+					<h2 class="visually-hidden">Send message form</h2>
+
+					<div class="page-form__input-wrapper">
+						<div class="page-form__left-side">
+
+							<label class="visually-hidden" for="user-name">Name</label>
+							<input type="text" class="validate" id="user-name" name="name" placeholder="NAME *">
+
+							<label class="visually-hidden" for="user-email">Email</label>
+							<input type="email" class="validate" id="user-email" name="email" placeholder="EMAIL *">
+
+							<label class="visually-hidden" for="user-subject">Subject</label>
+							<input type="text" class="validate" id="user-subject" name="subject" placeholder="SUBJECT *">
+
+						</div>
+						<div class="page-form__right-side">
+
+							<label class="visually-hidden" for="user-message">Name</label>
+							<textarea class="page-form__text  validate" id="user-message" name="user-message" placeholder="MESSAGE *"></textarea>
+
+						</div>
+					</div>
+
+					<button class="btn-blue  btn-blue__form" type="submit">SEND MESSAGE</button>
+					
+				</form>
+
+			</div><!--end contacts__description + container-->
+
+		</div><!--end contacts__grey-bg-->
+		<div class="contacts__map-bg">
+
+			<h2 class="visually-hidden">Our address: 1001 Brickell Bay Dr, Miami, FL 33131, USA</h2>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.2104673941744!2d-80.1906669334924!3d25.763610891817965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bcf83f7%3A0x2463ac2a5b95f900!2zMTAwMSBCcmlja2VsbCBCYXkgRHIsIE1pYW1pLCBGTCAzMzEzMSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1519999219683" width="100%" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		</div><!--end contacts__map-bg-->
+	</section>
+
+</main>
+<!--______________________________section_7 (footer)-->
+<footer class="page-footer">
+	<div class="page-footer__bg">
+		
+		<div class="page-footer__description  container">
+			
+			<div class="page-footer__social">
+				<a href="#" class="social-behance">
+					<span class="visually-hidden">behance</span>
+				</a>
+				<a href="#" class="social-dribble">
+					<span class="visually-hidden">dribble</span>
+				</a>
+				<a href="#" class="social-twitter">
+					<span class="visually-hidden">twitter</span>
+				</a>
+				<a href="#" class="social-facebook">
+					<span class="visually-hidden">facebook</span>
+				</a>
+				<a href="#" class="social-linkedin">
+					<span class="visually-hidden">linkedin</span>
+				</a>
+			</div>
+			<div class="page-footer__copyright">
+				<p>copyright © 2018 lucid onepage theme</p>
+			</div>
+
+		</div>
+
+	</div>
+</footer>
+
+
+<!--______________________________other settings-->
+<div class="scroll-header-bg">
+	<section class="page-header__wrap container">
+
+		<a class="page-header__logo">
+			<img src="img/lucid_logo.png" alt="Company's logo">
+		</a>
+
+		<nav class="main-nav" id="scroll-menu">
+
+			<button class="btn__burger-menu--toggle" id="btn__burger-menu" type="button"><span class="visually-hidden">Открыть меню</span></button>
+
+			<ul class="main-nav__list  main-nav__list--mobile">
+
+				<li class="main-nav__item  main-nav__item--active  main-nav__item--active-mobile">
+					<a href="#home" class="main-nav__link">Home</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#features" class="main-nav__link">Features</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#about" class="main-nav__link">About</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#testimonials" class="main-nav__link">Testimonials</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#pricing" class="main-nav__link">Pricing</a>
+				</li>
+				<li class="main-nav__item">
+					<a href="#contact" class="main-nav__link">Contact</a>
+				</li>
+
+			</ul>
+		</nav>
+
+	</section>
+</div><!--end scroll header-->
+
+<button class="btn__scroll-top" type="button"></button>
+
+
+<!-- libs.min.js = jquery + slick + WOW -->
+<script src="js/libs.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

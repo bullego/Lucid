@@ -1,0 +1,74 @@
+@mixin option-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin main-nav-text {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin grey-text {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin uppercase-text {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin main-title {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 48px;
+  line-height: 65px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@mixin title-white-light {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@mixin title-black {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+@mixin subtitle-black-text {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin table-header {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+@mixin price {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-size: 60px;
+  line-height: 45px;
+  font-style: normal;
+  font-weight: 600;
+}
